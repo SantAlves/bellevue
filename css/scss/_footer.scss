@@ -1,0 +1,23 @@
+footer{
+    padding: 20px 0;
+    background: $amarelo-claro;
+    @include box-shadow (0 0 0 10px $amarelo-claro);
+   
+    
+    p{
+       
+        @include d(s){
+            text-align: center; 
+        }   
+        
+    }
+
+     a img{
+       float: right;
+       @include d(s){ 
+            margin: 10px auto;
+            float: none;
+         }
+            
+    }
+}
